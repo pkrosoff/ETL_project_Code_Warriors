@@ -9,7 +9,7 @@ Team Code Warriors is planning on joining the following two datasets:
     <a href="https://www.kaggle.com/datafiniti/fast-food-restaurants">fast food restaurants</a></li>
     <li> <a href="https://www.kaggle.com/tcrammond/food-access-and-food-deserts">food deserts</a></li>
     </ul>
-<h3>CONNECTING<h3>
+<h3>CONNECTING</h3>
 <br>
 <p>Utilizing the dataset below, which contains counties and cities, we plan on joining our two datasets utilizing a junction table (many-to-many) relationship.</p>
 <ul>
