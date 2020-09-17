@@ -1,0 +1,6 @@
+Field,LongName,Description
+State,State,State name
+County,County,County name
+2010_Population,"Population, tract total",Population count from 2010 census
+Food_Desert_Population,"Low access, population at 1 mile for urban areas and 10 miles for rural areas, number",Population count beyond 1 mile for urban areas or 10 miles for rural areas from supermarket
+Food_Desert_Low_Income,"Low access, low-income population at 1 mile for urban areas and 10 miles for rural areas, number",Low income population count beyond 1 mile for urban areas or 10 miles for rural areas from supermarket
