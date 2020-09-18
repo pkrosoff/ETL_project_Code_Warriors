@@ -6,14 +6,14 @@ CREATE TABLE IF NOT EXISTS Food_Desert_Data
     
     "State" VARCHAR(250) NOT NULL UNIQUE,
     "County" VARCHAR(250) NOT NULL UNIQUE,
-    2010_Population INTEGER,
+    "2010_Population" INTEGER,
     Food_Desert_Population INTEGER,
     Food_Desert_Low_Income INTEGER,
-    PRIMARY KEY(State, County)
+    PRIMARY KEY("State", "County")
     
 );
 
-CREATE TABLE IF NOT EXISTS 2019_US_County_Health_Rankings
+CREATE TABLE IF NOT EXISTS "2019_US_County_Health_Rankings"
 (
     FIPS INTEGER,
     "State" VARCHAR(250) NOT NULL UNIQUE,
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS 2019_US_County_Health_Rankings
     "% Unemployed" INTEGER,
     "% Children in Poverty" INTEGER,
     "Income Ratio" INTEGER,
-    PRIMARY KEY(State, County)
+    PRIMARY KEY("State", "County")
 );
 
 
