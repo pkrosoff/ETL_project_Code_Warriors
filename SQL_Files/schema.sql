@@ -35,20 +35,5 @@ CREATE TABLE IF NOT EXISTS "2019_US_County_Health_Rankings"
     PRIMARY KEY("State", "County")
 );
 
-
--- Create FKs       
--- ALTER TABLE "Food Desert Data"
---     ADD    FOREIGN KEY (State)
---     REFERENCES "2019 U.S County Health Rankings"(State)
---     MATCH FULL
--- ;
-    
--- ALTER TABLE "2019 U.S County Health Rankings"
---     ADD    FOREIGN KEY (State)
---     REFERENCES "Food Desert Data"(State)
---     MATCH SIMPLE
--- ;
-    
-
 -- Create Indexes
 -- Recommended IMPORT CSV FILE ORDER: 2019_US_County_Health_Rankings, Food_Desert_Data
