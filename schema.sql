@@ -4,8 +4,8 @@
 CREATE TABLE IF NOT EXISTS Food_Desert_Data
 (
     
-    "State" VARCHAR(250) NOT NULL UNIQUE,
-    "County" VARCHAR(250) NOT NULL UNIQUE,
+    "State" VARCHAR(250) NOT NULL,
+    "County" VARCHAR(250) NOT NULL,
     "2010_Population" INTEGER,
     Food_Desert_Population INTEGER,
     Food_Desert_Low_Income INTEGER,
@@ -16,8 +16,8 @@ CREATE TABLE IF NOT EXISTS Food_Desert_Data
 CREATE TABLE IF NOT EXISTS "2019_US_County_Health_Rankings"
 (
     FIPS INTEGER,
-    "State" VARCHAR(250) NOT NULL UNIQUE,
-    "County" VARCHAR(250) NOT NULL UNIQUE,
+    "State" VARCHAR(250) NOT NULL,
+    "County" VARCHAR(250) NOT NULL,
     "Years of Potential Life Lost Rate" INTEGER,
     "% Fair/Poor Health" DECIMAL,
     "Avg. Physically Unhealthy Days" DECIMAL,
