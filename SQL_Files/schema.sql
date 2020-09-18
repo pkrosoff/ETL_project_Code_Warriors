@@ -51,4 +51,4 @@ CREATE TABLE IF NOT EXISTS "2019_US_County_Health_Rankings"
     
 
 -- Create Indexes
-
+-- Recommended IMPORT CSV FILE ORDER: 2019_US_County_Health_Rankings, Food_Desert_Data
