@@ -37,6 +37,23 @@ Team Code Warriors is planning on joining the following two datasets:
       </ul>
    </li>
    <li>Relocate downloaded .csv files into the repository folder</li>
+   <li>Commit changes to GitHub frequently, as necessary</li>
    </ol>
+<br>
+<h3>Data Transformation: Cleaning and Restructuring Raw Data</h3>
+<ol>
+   <li>Create a new jupyter notebook .ipynb file inside your local repository folder</li>
+   <li>Using Pandas, read in both .csv files for cleaning and restructuring</li>
+   <ul>
+      <li>The code for reading, cleaning, transforming, and exporting the .csv files can be found <a href="link_to_jupyter_notebook_file">here</a></li>
+   </ul>
+   <li>Determine which columns of data are of interest to your project</li>
+   <li>Restructure dataframes to include only the columns of interest</li>
+   <li>Ensure State names and County names follow the same Abbreviation, spelling, and capitalization format</li>
+   <li>In tables where more than one row per County and State combination exists, Group by State and County</li>
+   <li>Sum the columns of the State and County to find the population in each county that is represented by each column header</li>
+   <li>Rename column headers to maintain clarity of values being identified</li>
+   </ol>
+ 
     
   
