@@ -24,14 +24,14 @@ CREATE TABLE IF NOT EXISTS "2019_US_County_Health_Rankings"
     "Avg. Mentally Unhealthy Days" DECIMAL,
     "% Adult Smokers" DECIMAL,
     "% Adult Obesity" DECIMAL,
-    "Food Environment Index" INTEGER,
+    "Food Environment Index" DECIMAL,
     "% Physically Inactive" DECIMAL,
     "% Excessive Drinking" DECIMAL,
-    "Graduation Rate %" INTEGER,
+    "Graduation Rate %" DECIMAL,
     "% Some College" DECIMAL,
     "% Unemployed" DECIMAL,
     "% Children in Poverty" DECIMAL,
-    "Income Ratio" INTEGER,
+    "Income Ratio" DECIMAL,
     PRIMARY KEY("State", "County")
 );
 
