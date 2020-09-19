@@ -1,6 +1,6 @@
+-- NOTE: Need to wrap columns and tables in "" to successfully run queries. This is the case for all columns of data that have "" in the schema.
 
 -- Testing that uploaded data from 2019_US_County_Health_Rankings.csv works
--- NOTE: Need to wrap table 2019_US_County_Health_Rankings in "" because it starts with a digit
 SELECT *
 FROM "2019_US_County_Health_Rankings"
 LIMIT 5;
