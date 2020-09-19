@@ -30,13 +30,15 @@ Team Code Warriors is planning on joining the following two datasets:
    </li>
    <li>Download files to local machine</li>
    <li>Save As .csv if data type is .xsls</li>
-   <li>Create a GitHub repository for this project to hold .csv files and jupyter notebook files</li>
+   <ul><li><strong>**See steps below for transforming county health data into a .csv file from the source website, manual cleaning was implemented</strong></li></ul>
+   <li>A data dictionary from the original source website was also saved for clarification of data used for the county health rankings data</li>
+   <li>Create a GitHub repository for this project to hold resource data files, jupyter notebook files, and SQL files</li>
    <li>Clone the project repository to your local machine. 
       <ul>
          <li><strong>DO NOT clone this repository inside an existing repository</strong></li>
       </ul>
    </li>
-   <li>Relocate downloaded .csv files into the repository folder</li>
+   <li>Relocate downloaded data files into the repository folder</li>
    <li>Commit changes to GitHub frequently, as necessary</li>
    </ol>
 <br>
@@ -54,6 +56,27 @@ Team Code Warriors is planning on joining the following two datasets:
    <li>Sum the columns of the State and County to find the population in each county that is represented by each column header</li>
    <li>Rename column headers to maintain clarity of values being identified</li>
    </ol>
+   <li>**For the county health rankings data .xsls file, navigate to the workbook titled "Ranked Measure Data" and save that workbook specifically as its own .xsls file independent of the other workbooks, we only evaluated data from this specific workbook from this file</li>
+   <li>This document was cleaned manually by highlighting the desired columns, copying their contents, and removing the rest</li>
+   <li>The columns we chose to include were:
+      <ol>
+         <li>Premature Death: Years of Potential Life Lost Rate<li>
+         <li>%Fair/Poor Health</li>
+         <li>Avg. Physically Unhealthy Days</li>
+         <li>Avg. Mentally Unhealthy Days</li>
+         <li>%Adult Smokers</li>
+         <li>% Adult Obesity</li>
+         <li>Food Environment Index</li>
+         <li>%Physically Inactive</li>
+         <li>%Excessive Drinking<li>
+         <li>Graduation Rate %</li>
+         <li>% Some College</li>
+         <li>% Unemployed</li>
+         <li>% Children in Poverty</li>
+         <li>Income Raito</li>
+      </ol></li>
+   <li>The first header row of the document was removed</li> 
+   <li>The document was Saved As a new .csv format</li>
  
  
  
