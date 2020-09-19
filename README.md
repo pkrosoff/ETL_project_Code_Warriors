@@ -125,8 +125,7 @@ In order to trial our database we choose to use the tool known as <a href=”htt
        <li> (needed)</li>
        <li> (needed)</li>
       </ul></li>
-   <li>Sample queries ran on pgAdmin 4 database
-       <li> 
+   <li>Sample queries ran on pgAdmin 4 database:
     ```
         SELECT f."County", COUNT(f."County") AS "Frequency of County"
         FROM Food_Desert_Data f
