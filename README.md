@@ -169,12 +169,12 @@ In order to trial our database we choose to use the tool known as <a href=”htt
      </ol></li>
    <li>Sample queries ran on pgAdmin 4 database:
    
-    ```
-        SELECT f."County", COUNT(f."County") AS "Frequency of County"
-        FROM Food_Desert_Data f
-        GROUP BY "County"
-        ORDER BY "Frequency of County" DESC;
-    ```
+```
+  SELECT f."County", COUNT(f."County") AS "Frequency of County"
+  FROM Food_Desert_Data f
+  GROUP BY "County"
+  ORDER BY "Frequency of County" DESC;
+```
    </li>
        <li> (another sample query?)</li>
       </ul></li>
