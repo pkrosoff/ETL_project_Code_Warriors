@@ -182,9 +182,7 @@ In order to trial our database we choose to use the tool known as <a href=”htt
 <p>We created a SQL query as an example to show this relationship by joining the food desert table with the health rankings table based on state and county. Next, we calculated the percentage of people living in food deserts with low income and the percentage of people reporting fair or poor health. Lastly, we grouped these data by state. The results of this query showed a possible positive correlation between the percentage of food deserts with low income and the percentage of people who report fair or poor health.</p>
 <p>This is just one of many measures in the US County Health Rankings data, and further analysis would be interesting to see if other health outcome measures correlate with food deserts and low income.</p>
 <p>The queries run can be found in <a href="SQL_Files/john_analysis.sql">this</a> file.
-
- 
- <br><br><br>
+<br>
 <h3> Challenges </h3>
 <p>One of the challenges we faced was determining the dataset to pair with the food desert data. Our original choice was one with fast food restaurants to determine the ratio of these types of restaurants in food deserts vs. non-food deserts. Unfortunately, the food desert dataset contained State and County, while the fast food dataset contained State and City. We tried using a junction table to bridge the two by using a third data set, but there ended up being a lot of missing data and we felt we would lose out on much of the analysis that would have been available.</p>
 <p>To solve this problem, we found another dataset that included State and County as well as some interesting health data to replace the fast food data we originally wanted to use. We felt this new dataset was a good measure of the effects of a food desert on a population and it was easier to match with the food desert data without sacrificing valuable records.</p>
