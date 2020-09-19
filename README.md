@@ -101,21 +101,51 @@ In creating our relational database we choose to use <a href=”https://www.genm
 <li>The starter code that is produced from GenMyModel is messy and needs to be cleaned</li>
 <ul><li>The starter SQL schema code brought in multiple foreign keys and incorrect primary keys from previous iterations of the ERD which needs to be cleaned </li>
 
-<li>Below is a code block of the final schema sql code:
+<li>Below is the cleaned code block for the final schema sql code:
 
 ```
-    CREATE TABLE IF NOT EXISTS Food_Desert_Data
+    -- Create schemas
+
+-- Create tables
+CREATE TABLE IF NOT EXISTS Food_Desert_Data
 (
+    
     "State" VARCHAR(250) NOT NULL,
     "County" VARCHAR(250) NOT NULL,
     "2010_Population" INTEGER,
     Food_Desert_Population INTEGER,
     Food_Desert_Low_Income INTEGER,
     PRIMARY KEY("State", "County")
+    
 );
+
+CREATE TABLE IF NOT EXISTS "2019_US_County_Health_Rankings"
+(
+    FIPS INTEGER,
+    "State" VARCHAR(250) NOT NULL,
+    "County" VARCHAR(250) NOT NULL,
+    "Years of Potential Life Lost Rate" INTEGER,
+    "% Fair/Poor Health" DECIMAL,
+    "Avg. Physically Unhealthy Days" DECIMAL,
+    "Avg. Mentally Unhealthy Days" DECIMAL,
+    "% Adult Smokers" DECIMAL,
+    "% Adult Obesity" DECIMAL,
+    "Food Environment Index" DECIMAL,
+    "% Physically Inactive" DECIMAL,
+    "% Excessive Drinking" DECIMAL,
+    "Graduation Rate %" DECIMAL,
+    "% Some College" DECIMAL,
+    "% Unemployed" DECIMAL,
+    "% Children in Poverty" DECIMAL,
+    "Income Ratio" DECIMAL,
+    PRIMARY KEY("State", "County")
+);
+
+-- Create Indexes
+-- Recommended IMPORT CSV FILE ORDER: 2019_US_County_Health_Rankings, Food_Desert_Data
 ```
 </li></ul></ol>
-<h4>pgAdmin – PostgreSQL</h4>
+<h5>pgAdmin – PostgreSQL</h5>
 In order to trial our database we choose to use the tool known as <a href=”https://www.pgadmin.org/download//”>pgAdmin 4</a>. This tool gave us the ability to trial our Postgres database real time. Several iterations took place to successfully import data and run queries. See additional details below.
 <img src=images/pgadmin_tree.PNG>
 
