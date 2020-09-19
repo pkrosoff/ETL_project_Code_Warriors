@@ -55,5 +55,17 @@ Team Code Warriors is planning on joining the following two datasets:
    <li>Rename column headers to maintain clarity of values being identified</li>
    </ol>
  
+ 
+ 
+ <br><br><br>
+<h3> Challenges </h3>
+<p>One of the challenges we faced was determining the dataset to pair with the food desert data. Our original choice was one with fast food restaurants to determine the ratio of these types of restaurants in food deserts vs. non-food deserts. Unfortunately, the food desert dataset contained State and County, while the fast food dataset contained State and City. We tried using a junction table to bridge the two by using a third data set, but there ended up being a lot of missing data and we felt we would lose out on much of the analysis that would have been available.</p>
+<p>To solve this problem, we found another dataset that included State and County as well as some interesting health data to replace the fast food data we originally wanted to use. We felt this new dataset was a good measure of the effects of a food desert on a population and it was easier to match with the food desert data without sacrificing valuable records.</p>
+
+
+
+
+
+
     
   
