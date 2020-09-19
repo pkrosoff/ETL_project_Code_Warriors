@@ -53,7 +53,12 @@ Team Code Warriors is planning on joining the following two datasets:
    <li>Sum the columns of the State and County to find the population in each county that is represented by each column header</li>
    <li>Rename column headers to maintain clarity of values being identified</li>
    <ul>
-      <li>The code for reading, cleaning, transforming, and exporting the .csv files can be found <a href="jupyter_notebooks/food_desert_data_cleaning.ipynb">here</a></li>
+      <li>The code for reading the raw food desert data, cleaning, transforming, and exporting the cleaned .csv files can be found <a href="jupyter_notebooks/food_desert_data_cleaning.ipynb">here</a></li>
+      <li>Run this code on your local machine:
+         <ul><li>Save the code file into your jupyter_notebooks folder in your local copy of the repository</li>
+            <li>Navigate to the file in your terminal on your machine</li>
+            <li>Launch jupyter notebook</li>
+            <li>Run all kernels</li></ul>
    </ul>
    <br>
    <li>**For the county health rankings data .xsls file, navigate to the workbook titled "Ranked Measure Data" and save that workbook specifically as its own .xsls file independent of the other workbooks, we only evaluated data from this specific workbook from this file</li>
