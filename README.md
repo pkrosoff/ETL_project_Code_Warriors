@@ -93,7 +93,7 @@ In creating our relational database we choose to use <a href=”https://www.genm
 <h4>GenMyModel</h4>
 <ol>
 <li>Creating the *County Health Ranking Dataset* and the *Food Desert Dataset* tables in GenMyModel were straight forward.
-![ERD Diagram](/SQL_files/ERD_Diagram.png)</li>
+<img src=SQL_files/ERD_Diagram.png></li>
 
 <li>Once the ERD Diagram was complete GenMyModel has a menu to generate SQL starter code for the table schema.
 ![SQL](/images/generate_schema.png)</li>
