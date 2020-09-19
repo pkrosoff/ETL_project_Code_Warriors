@@ -1,6 +1,8 @@
 # ETL_project_Code_Warriors
-<h2>Code Warriors Team - ETL Project - University of Oregon/Trilogy Data Bootcamp</h2>
+<h2>ETL Project - University of Oregon/Trilogy Data Bootcamp</h2>
+<h3>Code Warriors Team - George Simon, John Levear, Nicole Cook, Phoebe Rosoff</h3>
 <br>
+
 <h3>SCOPE</h3>
 <br>
 Team Code Warriors is planning on joining the following two datasets:
