@@ -117,7 +117,7 @@ In creating our relational database we choose to use <a href=”https://www.genm
 </li></ul></ol>
 <h4>pgAdmin – PostgreSQL</h4>
 In order to trial our database we choose to use the tool known as <a href=”https://www.pgadmin.org/download//”>pgAdmin 4</a>. This tool gave us the ability to trial our Postgres database real time. Several iterations took place to successfully import data and run queries. See additional details below.
-![PgAdmin](/images/pgadmin_tree.png)
+<img src=/images/pgadmin_tree.png>
 
 <ol>
    <li>Loaded the following CSVs from the resource folder
