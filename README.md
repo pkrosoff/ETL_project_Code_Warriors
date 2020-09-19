@@ -55,7 +55,7 @@ Team Code Warriors is planning on joining the following two datasets:
    <li>In tables where more than one row per County and State combination exists, Group by State and County</li>
    <li>Sum the columns of the State and County to find the population in each county that is represented by each column header</li>
    <li>Rename column headers to maintain clarity of values being identified</li>
-   </ol>
+   
    <li>**For the county health rankings data .xsls file, navigate to the workbook titled "Ranked Measure Data" and save that workbook specifically as its own .xsls file independent of the other workbooks, we only evaluated data from this specific workbook from this file</li>
    <li>This document was cleaned manually by highlighting the desired columns, copying their contents, and removing the rest</li>
    <li>The columns we chose to include were:
@@ -77,6 +77,7 @@ Team Code Warriors is planning on joining the following two datasets:
       </ol></li>
    <li>The first header row of the document was removed</li> 
    <li>The document was Saved As a new .csv format</li>
+   </ol>
  
  
  
