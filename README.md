@@ -90,7 +90,7 @@ In creating our relational database we choose to use <a href=”https://www.genm
 
 <h5>GenMyModel</h5>
 <ol>
-<li>Creating the *County Health Ranking Dataset* and the *Food Desert Dataset* tables in GenMyModel were straight forward.
+   <li>Creating the <strong>County Health Ranking Dataset</strong> and the <strong>Food Desert Dataset</strong> tables in GenMyModel were straight forward.
 <img src=SQL_Files/ERD_Diagram.png></li>
 
 <li>Once the ERD Diagram was complete GenMyModel has a menu to generate SQL starter code for the table schema.
@@ -188,11 +188,4 @@ In order to trial our database we choose to use the tool known as <a href=”htt
 <h3> Challenges </h3>
 <p>One of the challenges we faced was determining the dataset to pair with the food desert data. Our original choice was one with fast food restaurants to determine the ratio of these types of restaurants in food deserts vs. non-food deserts. Unfortunately, the food desert dataset contained State and County, while the fast food dataset contained State and City. We tried using a junction table to bridge the two by using a third data set, but there ended up being a lot of missing data and we felt we would lose out on much of the analysis that would have been available.</p>
 <p>To solve this problem, we found another dataset that included State and County as well as some interesting health data to replace the fast food data we originally wanted to use. We felt this new dataset was a good measure of the effects of a food desert on a population and it was easier to match with the food desert data without sacrificing valuable records.</p>
-
-
-
-
-
-
-    
-  
+<p>Another challege we faced was with the county health data, and cleaning it. We decided to do so manually as there were many complex headers in the original data files. With more time, we would have liked to do those steps within jupyter notebook using pandas dataframes.</p>
