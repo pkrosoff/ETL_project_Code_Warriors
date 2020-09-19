@@ -85,10 +85,10 @@ Team Code Warriors is planning on joining the following two datasets:
    </ol>
  
  
-<h3>LOAD<h3>
+<h3>Loading Data into a Database<h3>
 <h4> SCHEMA <h4>
 In creating our relational database we choose to use <a href=”https://www.genmymodel.com/”>GenMyModel</a> to design the entity relational diagram (ERD) to generate a schema framework. We choose to use this tool for it’s ability to visual our entities (tables) in our database and generate SQL starter code to create our database.
-After analyzing the *extracted* and *transformed* csv’s it was clear that a relational database was the direction to go. The *County Health Ranking Dataset* and the *Food Desert Dataset* both had clear relationship links on *State* and *Counties*; however, this was not the initial case (see challenges section).
+   After analyzing the <strong>extracted</strong> and <strong>transformed</strong> csv’s it was clear that a relational database was the direction to go. The *County Health Ranking Dataset* and the *Food Desert Dataset* both had clear relationship links on *State* and *Counties*; however, this was not the initial case (see challenges section).
 
 <h4>GenMyModel<h45>
 <ol>
