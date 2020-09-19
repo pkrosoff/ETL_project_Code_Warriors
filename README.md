@@ -164,10 +164,11 @@ In order to trial our database we choose to use the tool known as <a href=”htt
        <li>Select slider to read "Import"</li>
        <li>Navigate to the .csv file in your local machine</li>
        <li>Select "header"=yes, delimiter= ",", format=".csv"</li>
-       <li>Copy steps 2-7 using Food_Desert_Data</li>
+       <li>Copy steps i-vii using Food_Desert_Data file</li>
        <li><img src=images/import_export.PNG></li>
      </ol></li>
    <li>Sample queries ran on pgAdmin 4 database:
+   
     ```
         SELECT f."County", COUNT(f."County") AS "Frequency of County"
         FROM Food_Desert_Data f
