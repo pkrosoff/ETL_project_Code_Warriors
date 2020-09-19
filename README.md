@@ -90,7 +90,7 @@ Team Code Warriors is planning on joining the following two datasets:
 In creating our relational database we choose to use <a href=”https://www.genmymodel.com/”>GenMyModel</a> to design the entity relational diagram (ERD) to generate a schema framework. We choose to use this tool for it’s ability to visual our entities (tables) in our database and generate SQL starter code to create our database.
    After analyzing the <strong>extracted</strong> and <strong>transformed</strong> csv’s it was clear that a relational database was the direction to go. The <strong>County Health Ranking Dataset</strong> and the <strong>Food Desert Dataset</strong> both had clear relationship links on <strong>State</strong> and <strong>Counties</strong>; however, this was not the initial case (see challenges section).
 
-<h4>GenMyModel</h4>
+<h5>GenMyModel</h5>
 <ol>
 <li>Creating the *County Health Ranking Dataset* and the *Food Desert Dataset* tables in GenMyModel were straight forward.
 <img src=SQL_Files/ERD_Diagram.png></li>
