@@ -96,7 +96,7 @@ In creating our relational database we choose to use <a href=”https://www.genm
 <img src=SQL_Files/ERD_Diagram.png></li>
 
 <li>Once the ERD Diagram was complete GenMyModel has a menu to generate SQL starter code for the table schema.
-![SQL](/images/generate_schema.png)</li>
+<img src=images/generate_schema.PNG></li>
 
 <li>The starter code that is produced from GenMyModel is messy and needs to be cleaned</li>
 <ul><li>The starter SQL schema code brought in multiple foreign keys and incorrect primary keys from previous iterations of the ERD which needs to be cleaned </li>
