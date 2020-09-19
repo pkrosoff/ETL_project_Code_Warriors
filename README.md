@@ -46,16 +46,16 @@ Team Code Warriors is planning on joining the following two datasets:
 <ol>
    <li>Create a new jupyter notebook .ipynb file inside your local repository folder</li>
    <li>Using Pandas, read in food desert .csv file for cleaning and restructuring</li>
-   <ul>
-      <li>The code for reading, cleaning, transforming, and exporting the .csv files can be found <a href="jupyter_notebooks/food_desert_data_cleaning.ipynb">here</a></li>
-   </ul>
    <li>Determine which columns of data are of interest to your project</li>
    <li>Restructure dataframes to include only the columns of interest</li>
    <li>Ensure State names and County names follow the same Abbreviation, spelling, and capitalization format</li>
    <li>In tables where more than one row per County and State combination exists, Group by State and County</li>
    <li>Sum the columns of the State and County to find the population in each county that is represented by each column header</li>
    <li>Rename column headers to maintain clarity of values being identified</li>
-   
+   <ul>
+      <li>The code for reading, cleaning, transforming, and exporting the .csv files can be found <a href="jupyter_notebooks/food_desert_data_cleaning.ipynb">here</a></li>
+   </ul>
+   <br>
    <li>**For the county health rankings data .xsls file, navigate to the workbook titled "Ranked Measure Data" and save that workbook specifically as its own .xsls file independent of the other workbooks, we only evaluated data from this specific workbook from this file</li>
    <li>This document was cleaned manually by highlighting the desired columns, copying their contents, and removing the rest</li>
    <li>The columns we chose to include were:
