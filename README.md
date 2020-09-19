@@ -150,11 +150,23 @@ In order to trial our database we choose to use the tool known as <a href=”htt
 <img src=images/pgadmin_tree.PNG>
 
 <ol>
-   <li>Loaded the following CSVs from the resource folder
-    <ul>
-       <li> (needed)</li>
-       <li> (needed)</li>
-      </ul></li>
+   <li>Create a new database in PgAdimn
+      <ul><li>Open the "Query Tool"</li>
+         <li>Copy <a href=SQL_Files/schema.sql>schema file</a> contents into query tool</li>
+         <li>Run code block</li></ul>
+         
+   <li>Load the CSVs from the resource folder
+    <ol>
+       <li>Open the "Schema" tab in the database navigation menu</li>
+       <li>Open "Tables" dropdown section</li>
+       <li>Select the 2019_US_County_Health_Rankings table</li>
+       <li>Right click-->Import/Export</li>
+       <li>Select slider to read "Import"</li>
+       <li>Navigate to the .csv file in your local machine</li>
+       <li>Select "header"=yes, delimiter= ",", format=".csv"</li>
+       <li>Copy steps 2-7 using Food_Desert_Data</li>
+       <li><img src=images/
+     </ol></li>
    <li>Sample queries ran on pgAdmin 4 database:
     ```
         SELECT f."County", COUNT(f."County") AS "Frequency of County"
