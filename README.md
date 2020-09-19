@@ -86,11 +86,11 @@ Team Code Warriors is planning on joining the following two datasets:
  
  
 <h3>Loading Data into a Database<h3>
-<h4> SCHEMA </h4>
+<h4> Schema </h4>
 In creating our relational database we choose to use <a href=”https://www.genmymodel.com/”>GenMyModel</a> to design the entity relational diagram (ERD) to generate a schema framework. We choose to use this tool for it’s ability to visual our entities (tables) in our database and generate SQL starter code to create our database.
-   After analyzing the <strong>extracted</strong> and <strong>transformed</strong> csv’s it was clear that a relational database was the direction to go. The *County Health Ranking Dataset* and the **Food Desert Dataset** both had clear relationship links on *State* and *Counties*; however, this was not the initial case (see challenges section).
+   After analyzing the <strong>extracted</strong> and <strong>transformed</strong> csv’s it was clear that a relational database was the direction to go. The <strong>County Health Ranking Dataset</strong> and the <strong>Food Desert Dataset</strong> both had clear relationship links on <strong>State</strong> and <strong>Counties</strong>; however, this was not the initial case (see challenges section).
 
-<h4>GenMyModel<h45>
+<h4>GenMyModel</h4>
 <ol>
 <li>Creating the *County Health Ranking Dataset* and the *Food Desert Dataset* tables in GenMyModel were straight forward.
 ![ERD Diagram](/SQL_files/ERD_Diagram.png)</li>
@@ -115,21 +115,29 @@ In creating our relational database we choose to use <a href=”https://www.genm
 );
 ```
 </li></ul>
-<h4>pgAdmin – PostgreSQL<h4>
+<h4>pgAdmin – PostgreSQL</h4>
 In order to trial our database we choose to use the tool known as <a href=”https://www.pgadmin.org/download//”>pgAdmin 4</a>. This tool gave us the ability to trial our Postgres database real time. Several iterations took place to successfully import data and run queries. See additional details below.
 ![PgAdmin](/images/pgadmin_tree.png)
 
-* Loaded the following CSVs from the resource folder
-    * (needed)
-    * (needed)
-
-* Sample queries ran on pgAdmin 4 database.
-    * ```
+<ol>
+   <li>Loaded the following CSVs from the resource folder
+    <ul>
+       <li> (needed)</li>
+       <li> (needed)</li>
+      </ul></li>
+   <li>Sample queries ran on pgAdmin 4 database
+       <li> 
+    ```
         SELECT f."County", COUNT(f."County") AS "Frequency of County"
         FROM Food_Desert_Data f
         GROUP BY "County"
         ORDER BY "Frequency of County" DESC;
     ```
+   </li>
+       <li> (another sample query?)</li>
+      </ul></li>
+
+
  
  
  
