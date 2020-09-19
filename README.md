@@ -30,7 +30,7 @@ Team Code Warriors is planning on joining the following two datasets:
    </li>
    <li>Download files to local machine</li>
    <li>Save As .csv if data type is .xsls</li>
-   <ul><li><strong>**See steps below for transforming county health data into a .csv file from the source website, manual cleaning was implemented</strong></li></ul>
+   <ul><li><strong>**See steps 9-13 in the "Data Transformation" section for transforming county health data into a .csv file from the source website, manual cleaning was implemented</strong></li></ul>
    <li>A data dictionary from the original source website was also saved for clarification of data used for the county health rankings data</li>
    <li>Create a GitHub repository for this project to hold resource data files, jupyter notebook files, and SQL files</li>
    <li>Clone the project repository to your local machine. 
@@ -45,9 +45,9 @@ Team Code Warriors is planning on joining the following two datasets:
 <h3>Data Transformation: Cleaning and Restructuring Raw Data</h3>
 <ol>
    <li>Create a new jupyter notebook .ipynb file inside your local repository folder</li>
-   <li>Using Pandas, read in both .csv files for cleaning and restructuring</li>
+   <li>Using Pandas, read in food desert .csv file for cleaning and restructuring</li>
    <ul>
-      <li>The code for reading, cleaning, transforming, and exporting the .csv files can be found <a href="link_to_jupyter_notebook_file">here</a></li>
+      <li>The code for reading, cleaning, transforming, and exporting the .csv files can be found <a href="jupyter_notebooks/food_desert_data_cleaning.ipynb">here</a></li>
    </ul>
    <li>Determine which columns of data are of interest to your project</li>
    <li>Restructure dataframes to include only the columns of interest</li>
