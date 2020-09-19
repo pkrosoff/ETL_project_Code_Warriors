@@ -167,6 +167,8 @@ In order to trial our database we choose to use the tool known as <a href=”htt
        <li>Copy steps i-vii using Food_Desert_Data file</li>
        <li><img src=images/import_export.PNG></li>
      </ol></li>
+     </ol>
+     <ul>
    <li>Sample queries ran on pgAdmin 4 database:
    
 ```
@@ -175,13 +177,12 @@ In order to trial our database we choose to use the tool known as <a href=”htt
   GROUP BY "County"
   ORDER BY "Frequency of County" DESC;
 ```
-   </li>
-       <li> (another sample query?)</li>
-      </ul></li>
-
-
- 
- 
+   </li></ul>
+       
+<h3>Further Analysis</h3>
+One way this data can be analyzed is by comparing the percentage of people living in food deserts and who have low income to the percentage of people reporting fair or poor health for each state. With this information we could investigate if these factors are correlated and identify the states with the highest and lowest percentages.  
+We created a SQL query as an example to show this relationship by joining the food desert table with the health rankings table based on state and county. Next, we calculated the percentage of people living in food deserts with low income and the percentage of people reporting fair or poor health. Lastly, we grouped these data by state. The results of this query showed a possible positive correlation between the percentage of food deserts with low income and the percentage of people who report fair or poor health.
+This is just one of many measures in the US County Health Rankings data, and further analysis would be interesting to see if other health outcome measures correlate with food deserts and low income.
  
  <br><br><br>
 <h3> Challenges </h3>
