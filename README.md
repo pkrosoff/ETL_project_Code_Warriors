@@ -23,7 +23,7 @@ Team Code Warriors is planning on joining the following two datasets:
    <li>Retrieve .csv files from the data sources:
       <ul>
          <li>https://www.kaggle.com/tcrammond/food-access-and-food-deserts</li>
-         <li>"https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation</li>
+         <li>https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation</li>
       </ul>
    </li>
    <li>Download files to local machine</li>
