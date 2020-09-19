@@ -15,7 +15,6 @@ Team Code Warriors is planning on joining the following two datasets:
 <ul>
     <li> PostGres </li>
     </ul>
-<br><br>
 -------------------------------------------------------------------
 <h1>Write-up</h1>
 <br>
