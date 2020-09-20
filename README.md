@@ -63,7 +63,7 @@ Team Code Warriors is planning on joining the following two datasets:
    <li>This document was cleaned manually by highlighting the desired columns, copying their contents, and removing the rest</li>
    <li>The columns we chose to include were:
       <ol>
-         <li>Premature Death: Years of Potential Life Lost Rate<li>
+         <li>Premature Death: Years of Potential Life Lost Rate</li>
          <li>%Fair/Poor Health</li>
          <li>Avg. Physically Unhealthy Days</li>
          <li>Avg. Mentally Unhealthy Days</li>
@@ -71,7 +71,7 @@ Team Code Warriors is planning on joining the following two datasets:
          <li>% Adult Obesity</li>
          <li>Food Environment Index</li>
          <li>%Physically Inactive</li>
-         <li>%Excessive Drinking<li>
+         <li>%Excessive Drinking</li>
          <li>Graduation Rate %</li>
          <li>% Some College</li>
          <li>% Unemployed</li>
